@@ -41,6 +41,7 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback {
     private static final LatLng AIGUESTORTES = new LatLng(42.566905, 0.933564);
     private static final LatLng MONTSERRAT = new LatLng(41.600298, 1.807416);
     private static final LatLng ALBERA = new LatLng(42.409718, 3.032365);
+    private static final LatLng LLEIDA = new LatLng(41.607644, 0.622699);
 
     private GoogleMap mMap;
 
@@ -135,6 +136,10 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback {
                 .position(ALBERA)
                 .title("Massís de l'Albera")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        mMap.addMarker(new MarkerOptions()
+                .position(LLEIDA)
+                .title("Lleida")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
     }
 
 

@@ -31,8 +31,8 @@ import static com.example.xavier.myapplication.backend.OfyService.ofy;
   name = "registration",
   version = "v1",
   namespace = @ApiNamespace(
-    ownerDomain = "backend.myapplication.xavier.example.com",
-    ownerName = "backend.myapplication.xavier.example.com",
+    ownerDomain = "backendgcm.fireprotect.xavier.example.com",
+    ownerName = "backendgcm.fireprotect.xavier.example.com",
     packagePath=""
   )
 )

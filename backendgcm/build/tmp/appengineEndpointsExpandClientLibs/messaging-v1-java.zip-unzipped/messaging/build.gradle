@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 
-group = 'com.example.xavier.myapplication.backend'
+group = 'com.example.xavier.fireprotect.backendgcm'
 archivesBaseName = 'messaging'
 version = 'v1-1.22.0-SNAPSHOT'
 
